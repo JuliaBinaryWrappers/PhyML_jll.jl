@@ -1,143 +1,406 @@
 [[PhyML]]
 arch = "aarch64"
-git-tree-sha1 = "77fd05bc46d9e0e505aba36501b091f35352a26b"
+git-tree-sha1 = "4c5b24056fee4ff4d05cd7a45c8aacd1e170fcd3"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[PhyML.download]]
-    sha256 = "aaad968201badb02de37273fbf4d313171f100a0591fd1e504196753f93b2c8f"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.aarch64-apple-darwin.tar.gz"
+    sha256 = "2501fce68ae468531f709ac939919f54fbd68fd1c3222bf007866cf04b1c4869"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "aarch64"
-git-tree-sha1 = "229c0335aed9be7a9f9b2c3cffa0235ad69c74e5"
+git-tree-sha1 = "9603916462fbde9d8e1410fdd1ba78c984a3a369"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[PhyML.download]]
+    sha256 = "2a8314631c181a1d0114c298209bb70fa48bc29f04d552a60752355b87c4705c"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "aarch64"
+git-tree-sha1 = "beae489f621bdd850c3bd334986c1d46e9fabde0"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[PhyML.download]]
+    sha256 = "059049c55dca0e48602010cd1b65a7c64d728d76fb5df203d869eb21c95b6973"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "aarch64"
+git-tree-sha1 = "37eac5ee25fd6e58d8b3d3070970d8afb26010a1"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "eef68811cc83f58208e2e7fb9cb5d77a1b1a8b28782838846becbacc2fcfc62a"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.aarch64-linux-gnu.tar.gz"
+    sha256 = "ea265c78dfb4a2364bb9afaffcecffef0dabb4e19190fd090819a83013ab756d"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-linux-gnu-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "aarch64"
-git-tree-sha1 = "da841fd7c3b0306032b55ce5382d4e89db1d0228"
-libc = "musl"
+git-tree-sha1 = "b2dcf7b313e5e52878c7a7b67b053dbd6566e44b"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "8d7ce7c1026cdca9e43e3499d1910cf815cb68c84b5bc6980595d46e95b12131"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.aarch64-linux-musl.tar.gz"
+    sha256 = "90608aa4f44c813aacfe0cf4f154f1ebad73ecd5659983259a8abb2b80cabad0"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "aarch64"
+git-tree-sha1 = "3f660942d8cd2d2cf5ff514bba0fcc3f6a72ef55"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "97cb21ffe5ff63861bc4e86050a95a92b96c28dc1dbd9a7da8be8d054261dea0"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-linux-gnu-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "aarch64"
+git-tree-sha1 = "fb2f553a07e37ed9d28b8c97c8d8eee42cea1527"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "1636d5ee7c54c5223acfc0f176f4f48e30258da09f3a0211e637ea7d825bf27b"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "aarch64"
+git-tree-sha1 = "e56ef85e7380cf4433c6661e15ff4f17c9d7a4c4"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "6701bf31092b85051517325b28393da93760f15eb09dca042d41eb829210af5e"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.aarch64-linux-musl-mpi+openmpi.tar.gz"
 [[PhyML]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "f3234d38a79063ad47823db8525c21720257f8e5"
+git-tree-sha1 = "4c79d57bc3311185fc338cbf1591d4831038a3c1"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "63e527de553544ea5cc88fa9e69cbc65a116fddf1b6a2f70b6ad5c7787c8c448"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "8dde46c460e953613ac2b23fd8fb755e2fbbb34fb581145bdb0d7719bac50bba"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "093806d2e3e2c02cfbb55dd4618038dbbe77e371"
-libc = "musl"
+git-tree-sha1 = "8dc1f0e93cab10456c67eda303f6ec8a882d42b5"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "beb5fef61877c0d9467709b42bc0a5feb45606cacee74e2521cc7c1b1cdb9fa2"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "6faa7643ff89ca16bfc51ef0f06c5deba894a22d8fa0ac78def3d9dfad9186ff"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3e292c46a230f8730f3189dfa5a0e7ae0f9d98a8"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "2bba31da2a5666411faa87465cd9f5eed2aa554eac01ffe4da13ae1488e1b84d"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4605d3eed3608bb86375e8ead6afae484311fd0d"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "43d68f2b7edf8a97cad1b3c41928f8ff56d6c06001ae2078ade452a03c136a14"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv6l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[PhyML]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "182a6d3dd6e0ac0fbbe0e5ce3731e1bddc4c558b"
+git-tree-sha1 = "b6d56ceca91e930c3f03a663282236a1c04b1f64"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "819f85ea09f124b06a92adcf0fabc61ad8e7eff445ae5c6238d7d92243559b93"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "8ba4910ee95baab3532eff492b772f1cdeb96542ea0afadd4b3033da228bde9b"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "5c8ddaee1277d26b47a588f5e3fc5afbc58b4bf2"
-libc = "musl"
-os = "linux"
-
-    [[PhyML.download]]
-    sha256 = "642a6639378e70c6233a3fe633098f9428ed553c99e8d7a994863d272cb552ea"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.armv7l-linux-musleabihf.tar.gz"
-[[PhyML]]
-arch = "i686"
-git-tree-sha1 = "27e76dad8c58b20f425aa5454b7f98eaeee61a2c"
+git-tree-sha1 = "32da47cb40c1b5a5cb7f1da34084165ce03d1b3c"
+lazy = true
 libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "88fc1a650068a7dda4728a4fed4ae9c30ef55fc13e9bb3a9bedab18f125c5a64"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.i686-linux-gnu.tar.gz"
+    sha256 = "4a024205c9b48a6ffac79e0c7057a6889f18fba32cb41b5bb7de244b412f1a21"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[PhyML]]
-arch = "i686"
-git-tree-sha1 = "034dc25de77aa4194793fae699643b66b025ef8c"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "19f31bad017b09cd6444a1b0307e4f5bc3b386e2"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "1a93f53fc5637a0a594309c98813e78aada4d0045b356c8b2b17ee95052f3703"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv7l-linux-gnueabihf-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "35fb0b7dedae185156331c37b5e9020952de8b83"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "3b01f9671964594aebd8d073d25730c12aa2d33e1131cd0c3372747b447cc46f"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.i686-linux-musl.tar.gz"
+    sha256 = "f31ddca9987ee52ff17667ff401431132beacdf958b59e3d2dadc71cbb69797b"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8dbc41859a459811dc7d1e06d0b8085832c5008a"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "6ed40ea3555a029368768514735c1edf83707e9e809d59e82a80d22f02b42e0a"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.armv7l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[PhyML]]
 arch = "i686"
-git-tree-sha1 = "e333a855b61ad8899e2d64cbf81cec61e02d568c"
+git-tree-sha1 = "5b5eaecaef9cb3ffad4431458e2b42c88cb7b5b5"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "7db76459887c4c9b53b0ae359e9ff4b36d0e9de50a571606d4bf37c148b55f55"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-linux-gnu-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "i686"
+git-tree-sha1 = "6a89ef5d86fc17bc6c2fb7fbf75a3f71abcc5351"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "309f7ff109b51b5a8052d7cea002532963113171951c13aa43c5061110663365"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "i686"
+git-tree-sha1 = "57904beea43466874383c673767b3fa0de741bda"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "4aad9ad6d9a9c11670aa8e61553157626b2cffb38705e67b0eb04aa8df5cfb35"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-linux-gnu-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "i686"
+git-tree-sha1 = "d841e8172dbb7e0fabb0ecb9720ada82b11fd4c9"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "9ce11c84f20e4baace4b14b13ae0e6b95e974e221b4ea6a8548d8b8cbd5b9130"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-linux-musl-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "i686"
+git-tree-sha1 = "f995a8cbe140e5703010dc75b01772a8e44ece0d"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "e72396a4256ab90028f1fa25794f38e67b8da5b8b8179dbce12ae58147abb5c7"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-linux-musl-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "i686"
+git-tree-sha1 = "9c2c146e58ee41b7acc8aac81db1dd592e0bf5c6"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[PhyML.download]]
-    sha256 = "f692e02aa71f3683a00d86fab6cc17889b3693ec7242b8c90e0d9045de897fbc"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.i686-w64-mingw32.tar.gz"
+    sha256 = "8b54dc97350b63074bba57b88891a1a759f991c954c2cdc8974346509d4ed799"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.i686-w64-mingw32-mpi+microsoftmpi.tar.gz"
 [[PhyML]]
 arch = "powerpc64le"
-git-tree-sha1 = "bd08bf4d177bb3673430ad7fc97ac871961602bc"
+git-tree-sha1 = "1b2792e10401fd4d5d953bec3ea70385a813adda"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "2898961ba9bec7fe260cdbd242bbcfeca7400fe0bd04bd9410762910d1c52827"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f2ff11b311a5cebafb50323d6d47207a66610116a36faf15c70d974cdf99e1be"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[PhyML]]
+arch = "powerpc64le"
+git-tree-sha1 = "bf5220407a38df1ebfad15f3004ae3bc26c681c8"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "7e55f1d0c761b9fe34af0db917d77316d8abffd5af9e1cf7c779e1a9a7cc17d6"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "powerpc64le"
+git-tree-sha1 = "52970a60224c36a35c769a9e51bd6f522164cc3a"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "85a800931c975b1b80afab33cb07715a3c2bb00cf2836af2a86a7b11ee75bc46"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.powerpc64le-linux-gnu-mpi+openmpi.tar.gz"
 [[PhyML]]
 arch = "x86_64"
-git-tree-sha1 = "63bf0e8d2b0feedfd172bd45ec84cd8bb487b697"
+git-tree-sha1 = "75cd665010f8fbb0dfcd850b7e372cf924b76144"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[PhyML.download]]
-    sha256 = "095129fa6b5a510380f831227f706cb2a8be3ae0b09a6a14ba5177f26f401e40"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.x86_64-apple-darwin.tar.gz"
+    sha256 = "c02d6065e2fd5c7b5ad52ac2e5f6c5aa56cd38d1852060503ea3fb34708cab58"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "x86_64"
-git-tree-sha1 = "5a2720f2687de018c01fe7e70f81ead698412db5"
+git-tree-sha1 = "8183a7cec123a0686f43f37a2c11aed19f84b206"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[PhyML.download]]
+    sha256 = "aefced472c172e6d714a3e4d5c2103e7bbf76132177290198aaa430f4ff072a5"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "a80f5033e2d545b5974aa66c9a10f016b2cf2eeb"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[PhyML.download]]
+    sha256 = "1286b9b608459043066fec2727fc1577498f486cf08f24ecbb30d1c6b49775b8"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "363a8a0ac87afd0d98a5e1f7bed0523e87b14045"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "77ed74418f13b8a028f6d35d612c4a39d5fe58518efa12b25e7eb8f315aed797"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.x86_64-linux-gnu.tar.gz"
+    sha256 = "74f3479ac5dde8b9ebab0a57429d8e9719575ec9de83cb473bd04c18d98341c3"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-linux-gnu-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "x86_64"
-git-tree-sha1 = "ff5e945376688908ed64e5e63767103dee66483b"
+git-tree-sha1 = "8ab57db8be36a73db71cd6365247053e098022b3"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "690a5912f6c18e845c9463ca8c1584ca82d0cb92754ead189576405b90faa434"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "5e19d20401528554bcbf9af56e8f64e7e1bdcbbc"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "45fc4f9de061ef92abd6f7bb723e13be8a3d74592b268e684bc454bd5f3b13a3"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-linux-gnu-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "4b85eb7e590a362fd9421ff38204b89c793a7e34"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[PhyML.download]]
-    sha256 = "2b5947480369e776bec1e6d225475820e4c033d7e3a63a3887de5737fde8be1f"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.x86_64-linux-musl.tar.gz"
+    sha256 = "1e1fc439b47a1071e07a9acd461cb6550df5f03929787268a1198812eb0c5da3"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-linux-musl-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "x86_64"
-git-tree-sha1 = "425c990f9e435f323e29b95c1d1744c456ef51e4"
+git-tree-sha1 = "5f4c2c923d1458f5975d28496355fa5c62b46dc3"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[PhyML.download]]
+    sha256 = "be8f785850f3f04213719ec8abfbc94e1cf921854d4efaad2a26861930acd595"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-linux-musl-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "ed4a1bb079ab624d96e2636d69489783b8dd3229"
+lazy = true
+mpi = "mpich"
 os = "freebsd"
 
     [[PhyML.download]]
-    sha256 = "335344cd5d9c07d0ddccbfafd62d0b106fb59a5066d8e2c8ec2b134d61a747de"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "e1820551071f8f4bf3449b2bef7a7243fd973d8d13d34ee92448ba8e6d52fed3"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
 [[PhyML]]
 arch = "x86_64"
-git-tree-sha1 = "08c77644840e47e25393ebeefe54638654280672"
+git-tree-sha1 = "d32d6e9ca0882fe18a407c12bb44f3ce37e0dbd6"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[PhyML.download]]
+    sha256 = "7512584f5b833c2df68d2095a56e50651bcd8eca4a98d041ba371d35cf3ab90f"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[PhyML]]
+arch = "x86_64"
+git-tree-sha1 = "4df76e3a3ffbf209cebbf98c53d74d3fda463f60"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[PhyML.download]]
-    sha256 = "ee97863998009f5f85e307fced573b84bade78e8a1b5afebfd61d3084f10d760"
-    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210609+0/PhyML.v3.3.20210609.x86_64-w64-mingw32.tar.gz"
+    sha256 = "34463c154ce712dfa1e30680424eef09723f119a0626b03700afd9233129025f"
+    url = "https://github.com/JuliaBinaryWrappers/PhyML_jll.jl/releases/download/PhyML-v3.3.20210610+0/PhyML.v3.3.20210610.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
